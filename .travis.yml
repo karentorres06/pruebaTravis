@@ -1,6 +1,7 @@
 language: php
 php:
 - 5.5
+- 7.0
 
 env:
 - BD=pgsql
@@ -18,7 +19,3 @@ script:
 - phpunit Test.php
 
 
-notifications:
-  email:
-    - diegocarrera2000@gmail.com
-  irc: "irc.freenode.org#yourfavouriteroomfortravis"
